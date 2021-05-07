@@ -9,17 +9,17 @@ int main(int argc, char const *argv[]) {
   return 0;
 }
 
-int x {
-  cout << "What is your number??"
-  cin >> x;
-  cout << "Your number is " << x;
+int x; 
+  std:cout << "What is your number??" << std::endl
+  std:cin >> x << std::endl;
+  std:cout << "Your number is " << x << std::endl;
   return 0;
-}
+
 
 int tht {
-  cout << "What is your username?";
-  cin >> sexable;
-  cout << "Your username is " << tht;
+  std:cout << "What is your username?";
+  std:cin >> sexable;
+  std:cout << "Your username is " << tht;
   return 0;
 }
 
